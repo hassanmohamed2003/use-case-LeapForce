@@ -14,14 +14,14 @@ Constraints:
 Titel / Label: Hoofdtitel (Eerste deel)
 Optioneel / Required: Required
 Default Value: "Mandatory title about the"
-Tooltip: Het eerste deel van de hoofdtitel. Het tweede deel wordt in een andere stijl weergegeven.
+Tooltip: Het eerste deel van de hoofdtitel. Het tweede deel kan in een andere stijl worden weergegeven.
 Constraints:
 - Maximaal 100 karakters
 - Alleen platte tekst, geen HTML
 
 3. Main Title (Deel 2)
 Titel / Label: Hoofdtitel (Call-to-Action deel)
-Optioneel / Required: Required
+Optioneel / Required: Optioneel
 Default Value: "call-to-action"
 Tooltip: Het tweede deel van de hoofdtitel dat wordt weergegeven in een andere stijl en/of kleur
 Constraints:
@@ -77,7 +77,7 @@ Constraints:
 Titel / Label: Kaart 1 - Titel
 Optioneel / Required: Required
 Default Value: "Title"
-Tooltip: Titel die wordt weergegeven over de eerste kaart afbeelding
+Tooltip: Titel die wordt weergegeven over de kaart afbeelding
 Constraints:
 - Maximaal 50 karakters
 - Alleen platte tekst, geen HTML
@@ -137,7 +137,7 @@ Constraints:
 LAYOUT & STYLING OPTIONS
 16. Section Background Color
 Titel / Label: Sectie achtergrondkleur
-Optioneel / Required: Optioneel
+Optioneel / Required: Required
 Default Value: "#fffcfa"
 Tooltip: Achtergrondkleur voor de webpagina
 Constraints:
