@@ -1,0 +1,145 @@
+Custom Velden Voorstel — Header & Image Cards Sectie
+
+HEADER SECTION FIELDS
+1. Label Text
+Titel / Label: Label Text
+Optioneel / Required: Optioneel
+Default Value: "Label"
+Tooltip: Kleine label tekst die boven de hoofdtitel wordt weergegeven
+Constraints:
+- Maximaal 20 karakters
+- Alleen platte tekst, geen HTML
+
+2. Main Title (Deel 1)
+Titel / Label: Hoofdtitel (Eerste deel)
+Optioneel / Required: Required
+Default Value: "Mandatory title about the"
+Tooltip: Het eerste deel van de hoofdtitel. Het tweede deel wordt in een andere stijl weergegeven.
+Constraints:
+- Maximaal 100 karakters
+- Alleen platte tekst, geen HTML
+
+3. Main Title (Deel 2)
+Titel / Label: Hoofdtitel (Call-to-Action deel)
+Optioneel / Required: Required
+Default Value: "call-to-action"
+Tooltip: Het tweede deel van de hoofdtitel dat wordt weergegeven in een andere stijl en/of kleur
+Constraints:
+- Maximaal 50 karakters
+- Alleen platte tekst, geen HTML
+
+4. Main Title (Deel 3)
+Titel / Label: Hoofdtitel (Laatste deel)
+Optioneel / Required: Optioneel
+Default Value: "here"
+Tooltip: Het laatste deel van de hoofdtitel na het CTA-gedeelte
+Constraints:
+- Maximaal 50 karakters
+- Alleen platte tekst, geen HTML
+
+5. Body Text
+Titel / Label: Beschrijvende tekst
+Optioneel / Required: Optioneel
+Default Value: "Optional body copy goes here."
+Tooltip: Ondersteunende tekst onder de hoofdtitel
+Constraints:
+- Maximaal 200 karakters
+- Alleen platte tekst, geen HTML
+
+6. Primary Button Text
+Titel / Label: Hoofdknop tekst
+Optioneel / Required: Optioneel
+Default Value: "Optional button"
+Tooltip: Tekst die wordt weergegeven op de hoofdknop
+Constraints:
+- Maximaal 30 karakters
+- Alleen platte tekst, geen HTML
+
+7. Primary Button URL
+Titel / Label: Hoofdknop link
+Optioneel / Required: Optioneel
+Default Value: "#"
+Tooltip: URL waarnaar de hoofdknop verwijst
+Constraints:
+- Moet een geldige URL zijn (intern of extern)
+
+IMAGE CARDS SECTION
+8. Card 1 Image
+Titel / Label: Kaart 1 - Afbeelding
+Optioneel / Required: Required
+Default Value: Template afbeelding (bijv. "/images/template-image-cta.png")
+Tooltip: Hoofdafbeelding voor de kaart
+Constraints:
+- Bestand moet een afbeelding zijn (jpg, png, webp, etc.)
+- Geldige relatieve of absolute URL
+
+9. Card 1 Title
+Titel / Label: Kaart 1 - Titel
+Optioneel / Required: Required
+Default Value: "Title"
+Tooltip: Titel die wordt weergegeven over de eerste kaart afbeelding
+Constraints:
+- Maximaal 50 karakters
+- Alleen platte tekst, geen HTML
+
+10. Card 1 Description
+Titel / Label: Kaart 1 - Beschrijving
+Optioneel / Required: Optioneel
+Default Value: "Supporting text about the call-to-action goes here"
+Tooltip: Beschrijvende tekst onder de titel van de kaart
+Constraints:
+- Maximaal 100 karakters
+- Alleen platte tekst, geen HTML
+
+11. Card 1 Button URL
+Titel / Label: Kaart 1 - Knop link
+Optioneel / Required: Optioneel
+Default Value: "#"
+Tooltip: URL waarnaar de knop van de kaart verwijst
+Constraints:
+- Moet een geldige URL zijn (intern of extern)
+
+12. Card 2 Image
+Titel / Label: Kaart 2 - Afbeelding
+Optioneel / Required: Required (indien image cards geactiveerd)
+Default Value: Template afbeelding (bijv. "/images/template-image-cta.png")
+Tooltip: Hoofdafbeelding voor de kaart
+Constraints:
+- Bestand moet een afbeelding zijn (jpg, png, webp, etc.)
+- Geldige relatieve of absolute URL
+
+13. Card 2 Title
+Titel / Label: Kaart 2 - Titel
+Optioneel / Required: Required
+Default Value: "Title"
+Tooltip: Titel die wordt weergegeven over de afbeelding
+Constraints:
+- Maximaal 50 karakters
+- Alleen platte tekst, geen HTML
+
+14. Card 2 Description
+Titel / Label: Kaart 2 - Beschrijving
+Optioneel / Required: Optioneel
+Default Value: "Supporting text about the call-to-action goes here"
+Tooltip: Beschrijvende tekst onder de titel van de kaart
+Constraints:
+- Maximaal 100 karakters
+- Alleen platte tekst, geen HTML
+
+15. Card 2 Button URL
+Titel / Label: Kaart 2 - Knop link
+Optioneel / Required: Optioneel
+Default Value: "#"
+Tooltip: URL waarnaar de knop van de kaart verwijst
+Constraints:
+- Moet een geldige URL zijn (intern of extern)
+
+LAYOUT & STYLING OPTIONS
+16. Section Background Color
+Titel / Label: Sectie achtergrondkleur
+Optioneel / Required: Optioneel
+Default Value: "#fffcfa"
+Tooltip: Achtergrondkleur voor de webpagina
+Constraints:
+- Hex kleurcode formaat (#000000)
+- Of de naam van een kleur (zwart, wit, rood, etc.)
