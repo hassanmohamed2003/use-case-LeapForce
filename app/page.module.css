@@ -1,0 +1,173 @@
+body,
+html {
+  background: var(--neutrals-wit-tinted-for-bg, #fffcfa);
+  color: black;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.page {
+  background: var(--neutrals-wit-tinted-for-bg, #fffcfa);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.ctaSection {
+  display: flex;
+  margin: 4rem 4rem 6rem 4rem;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.labelSubtitle {
+  display: flex;
+  width: 40.125rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.buttonIcon {
+  display: flex;
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0.375rem;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.imageGrid {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: row;
+}
+
+.imageCard {
+  position: relative;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.imageOverlay {
+  color: white;
+  width: 40.25rem;
+  height: 16.09375rem;
+  position: absolute;
+  bottom: 0rem;
+  background: linear-gradient(
+    0deg,
+    rgba(20, 20, 20, 0.8) 0%,
+    rgba(20, 20, 20, 0) 100%
+  );
+}
+
+.overlayContent {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 37.25rem;
+  position: absolute;
+  left: 1.5rem;
+  bottom: 2rem;
+}
+
+.overlayContent h1 {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: -0.035rem;
+}
+
+.overlayContent p {
+  color: var(--Neutrals-Soft-White, #fafafa);
+  opacity: 0.5;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 1.5rem;
+}
+
+.overlayButton {
+  display: flex;
+  padding: 0.75rem;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: transparent;
+  border-radius: 0.25rem;
+  border: 2px solid var(--opacity-wit-30, rgba(255, 255, 255, 0.3));
+}
+
+.primaryButton {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 1.625rem;
+  border: none;
+  background-color: transparent;
+  color: var(--Main-Colors-Oranje-Rood, #bf564d);
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 1.5rem;
+}
+
+.headerContainer h1 {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem;
+  letter-spacing: -0.075rem;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  align-self: stretch;
+}
+
+.ctaText {
+  color: #212121;
+  font-family: "GT Alpina";
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 3rem;
+  letter-spacing: -0.07875rem;
+}
+
+.headerContainer p {
+  color: #1e2526;
+  text-align: center;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 1.5rem;
+  opacity: 0.8;
+}
+
+.labelText {
+  color: var(--Main-Colors-Groengrijs, #39494d);
+  text-align: center;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 1rem;
+  letter-spacing: 0.01875rem;
+}
