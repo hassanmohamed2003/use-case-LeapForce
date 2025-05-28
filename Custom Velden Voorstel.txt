@@ -1,0 +1,120 @@
+Custom Velden Voorstel — Header & Image Cards Sectie
+
+HEADER SECTION FIELDS
+1. Label Text
+Title / Label: Label Text
+Optional / Required: Optional
+Default Value: "Label"
+Tooltip: Small label text displayed above the main title
+Constraints:
+- Maximaal 20 karakters
+
+2. Main Title
+Title / Label: Main Title
+Optional / Required: Required
+Default Value: "Mandatory title about the call-to-action here"
+Tooltip: The main title of the webpage, use <span> <span/> for styling
+Constraints:
+- Maximaal 200 karakters
+
+3. Body Text
+Title / Label: Descriptive Text
+Optional / Required: Optional
+Default Value: "Optional body copy goes here."
+Tooltip: Supporting text below the main title
+Constraints:
+- Maximaal 500 karakters
+
+4. Primary Button Text
+Title / Label: Primary Button Text
+Optional / Required: Optional
+Default Value: "Optional button"
+Tooltip: Text displayed on the primary button
+Constraints:
+- Maximaal 50 karakters
+
+5. Primary Button URL
+Title / Label: Primary Button Link
+Optional / Required: Optional
+Default Value: "#"
+Tooltip: URL that the primary button links to
+Constraints:
+- Moet een geldige URL zijn
+
+IMAGE CARDS SECTION
+
+6. Card 1 Image
+Title / Label: Card 1 - Image
+Optional / Required: Required
+Default Value: Template image (e.g. "/images/template-image-cta.png")
+Tooltip: Main image for the card
+Constraints:
+- Bestand moet een afbeelding zijn (jpg, png, webp, etc.)
+- Geldige relatieve of absolute URL
+
+7. Card 1 Title
+Title / Label: Card 1 - Title
+Optional / Required: Required
+Default Value: "Title"
+Tooltip: Title displayed over the card image
+Constraints:
+- Maximaal 100 karakters
+
+8. Card 1 Description
+Title / Label: Card 1 - Description
+Optional / Required: Optional
+Default Value: "Supporting text about the call-to-action goes here"
+Tooltip: Descriptive text below the card title
+Constraints:
+- Maximaal 200 karakters
+
+9. Card 1 Button URL
+Title / Label: Card 1 - Button Link
+Optional / Required: Optional
+Default Value: "#"
+Tooltip: URL that the card button links to
+Constraints:
+- Moet een geldige URL zijn
+
+10. Card 2 Image
+Title / Label: Card 2 - Image
+Optional / Required: Required (if image cards activated)
+Default Value: Template image (e.g. "/images/template-image-cta.png")
+Tooltip: Main image for the card
+Constraints:
+- Bestand moet een afbeelding zijn (jpg, png, webp, etc.)
+- Geldige relatieve of absolute URL
+
+11. Card 2 Title
+Title / Label: Card 2 - Title
+Optional / Required: Required
+Default Value: "Title"
+Tooltip: Title displayed over the image
+Constraints:
+- Maximaal 100 karakters
+
+12. Card 2 Description
+Title / Label: Card 2 - Description
+Optional / Required: Optional
+Default Value: "Supporting text about the call-to-action goes here"
+Tooltip: Descriptive text below the card title
+Constraints:
+- Maximaal 200 karakters
+
+13. Card 2 Button URL
+Title / Label: Card 2 - Button Link
+Optional / Required: Optional
+Default Value: "#"
+Tooltip: URL that the card button links to
+Constraints:
+- Moet een geldige URL zijn
+
+LAYOUT & STYLING OPTIONS
+
+14. Section Background Color
+Title / Label: Section Background Color
+Optional / Required: Required
+Default Value: "#fffcfa"
+Tooltip: Background color for the webpage
+Constraints:
+- Moet kleurcode formaat zijn (HEX, RGB, etc.) of de naam van een kleur
