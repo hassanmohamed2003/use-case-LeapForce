@@ -1,19 +1,14 @@
-body,
-html {
-  background: var(--neutrals-wit-tinted-for-bg, #fffcfa);
-  color: black;
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-}
-
 .page {
   background: var(--neutrals-wit-tinted-for-bg, #fffcfa);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   align-items: center;
+  color: black;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .ctaSection {
